@@ -1,0 +1,36 @@
+{
+  "user-name": "DrSmith",
+  "description": "Doctor with PII reading permission",
+  "password": "demo",
+  "role": [
+    "pii-reader",
+    "redaction-user",
+    "hub-central-operator",
+    "hub-central-developer",
+    "rest-extension-user",
+    "data-hub-module-reader",
+    "data-hub-module-writer"
+  ],
+  "permission": [
+    {
+      "role-name": "data-hub-module-writer",
+      "capability": "update"
+    },
+    {
+      "role-name": "rest-extension-user",
+      "capability": "read"
+    },
+    {
+      "role-name": "rest-extension-user",
+      "capability": "execute"
+    },
+    {
+      "role-name": "data-hub-module-reader",
+      "capability": "execute"
+    },
+    {
+      "role-name": "data-hub-module-reader",
+      "capability": "read"
+    }
+  ]
+}

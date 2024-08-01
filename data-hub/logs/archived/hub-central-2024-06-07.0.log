@@ -1,0 +1,132 @@
+2024-06-07 09:43:17,130 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 11.0.16.1 on macpro-6186 with PID 8529 (/Users/ttierney/Documents/GitHub/ml-ms-poc/ms-data-hub-581/marklogic-data-hub-central-5.8.1.war started by ttierney in /Users/ttierney/Documents/GitHub/ml-ms-poc/ms-data-hub-581)
+2024-06-07 09:43:17,134 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-07 09:43:18,127 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-07 09:43:18,127 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-07 09:43:18,127 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-06-07 09:43:19,207 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-07 09:43:19,391 INFO com.marklogic.hub.central.HubCentral [main] Will connect to MarkLogic host: localhost
+2024-06-07 09:43:19,391 INFO com.marklogic.hub.central.HubCentral [main] Hub Central is available at port: 8080
+2024-06-07 09:43:19,996 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-07 09:43:20,381 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 3.658 seconds (JVM running for 3.992)
+2024-06-07 09:43:22,166 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-07 09:43:22,425 INFO com.marklogic.hub.impl.HubConfigImpl [http-nio-8080-exec-1] Reading the datahub config for hubcentral from the datahubConfig.json file successful
+2024-06-07 09:43:22,438 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-1] App host: localhost
+2024-06-07 09:43:22,438 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-1] REST admin username: DrSmith
+2024-06-07 09:43:22,438 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-1] App Services username: DrSmith
+2024-06-07 09:43:22,439 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-1] Module permissions: %%mlModulePermissions%%
+2024-06-07 09:43:22,441 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-1] Admin interface host: localhost
+2024-06-07 09:43:22,441 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-1] Admin interface username: DrSmith
+2024-06-07 09:43:22,443 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-1] Manage host: localhost
+2024-06-07 09:43:22,444 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-1] Manage username: DrSmith
+2024-06-07 09:43:22,444 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-1] Manage user with security role: DrSmith
+2024-06-07 09:43:22,505 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-1] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]
+2024-06-07 09:43:22,527 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-1] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]
+2024-06-07 09:43:44,988 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-1-thread-1] Collecting items for step '1' in flow 'ProviderOrg'
+2024-06-07 09:43:45,252 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-1-thread-1] Count of items collected: 59431; will be processed in 595 batches based on batchSize of 100
+2024-06-07 09:43:45,744 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-1-thread-1] (withForestConfig) Using forests on [localhost] hosts for "ms-provider-STAGING"
+2024-06-07 09:43:45,748 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-1-thread-1] Starting processing of items for step '1' in flow 'ProviderOrg'
+2024-06-07 09:43:45,748 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-1-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-06-07 09:45:58,915 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-1] Job complete, jobBatchNumber=595, jobResultsSoFar=59431
+2024-06-07 09:45:58,916 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-1] Finished processing of items for step '1' in flow 'ProviderOrg'
+2024-06-07 09:45:58,970 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-1-thread-1] Collecting items for step '2' in flow 'ProviderOrg'
+2024-06-07 09:45:59,477 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-1-thread-1] Collecting items for step '3' in flow 'ProviderOrg'
+2024-06-07 09:45:59,512 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-1-thread-1] Collecting items for step '4' in flow 'ProviderOrg'
+2024-06-07 09:45:59,551 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-1-thread-1] Collecting items for step '5' in flow 'ProviderOrg'
+2024-06-07 09:45:59,613 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-1-thread-1] Collecting items for step '6' in flow 'ProviderOrg'
+2024-06-07 09:55:17,359 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-10] Uploading files to /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-1425003996373135519 in the server. If 'inputFilePath'  is specified in the ingestion step, this path overrides it.
+2024-06-07 09:55:17,423 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-10] Files successfully uploaded
+2024-06-07 09:55:17,808 INFO com.marklogic.hub.step.impl.FileCollector [pool-3-thread-1] Finding files in directory: /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-1425003996373135519
+2024-06-07 09:55:18,262 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-3-thread-1] (withForestConfig) Using forests on [localhost] hosts for "ms-provider-STAGING"
+2024-06-07 09:55:18,264 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-3-thread-1] Adding DatabaseClient on port 8010 for host "localhost" to the rotation
+2024-06-07 09:55:18,277 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-3-thread-1] threadCount=4
+2024-06-07 09:55:18,277 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-3-thread-1] batchSize=100
+2024-06-07 09:56:35,476 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [Thread-3] flushing 31 queued docs
+2024-06-07 09:56:49,877 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-5-thread-1] Collecting items for step '1' in flow 'ProviderOrg'
+2024-06-07 09:56:50,259 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-5-thread-1] Count of items collected: 59431; will be processed in 595 batches based on batchSize of 100
+2024-06-07 09:56:50,263 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-5-thread-1] (withForestConfig) Using forests on [localhost] hosts for "ms-provider-STAGING"
+2024-06-07 09:56:50,263 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-5-thread-1] Starting processing of items for step '1' in flow 'ProviderOrg'
+2024-06-07 09:56:50,263 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-5-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-06-07 09:59:48,095 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-4] Job complete, jobBatchNumber=595, jobResultsSoFar=59431
+2024-06-07 09:59:48,097 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-4] Finished processing of items for step '1' in flow 'ProviderOrg'
+2024-06-07 09:59:48,505 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-5-thread-1] Collecting items for step '2' in flow 'ProviderOrg'
+2024-06-07 09:59:48,579 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-5-thread-1] Count of items collected: 59431; will be processed in 595 batches based on batchSize of 100
+2024-06-07 09:59:48,588 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-5-thread-1] (withForestConfig) Using forests on [localhost] hosts for "ms-provider-STAGING"
+2024-06-07 09:59:48,588 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-5-thread-1] Starting processing of items for step '2' in flow 'ProviderOrg'
+2024-06-07 09:59:48,588 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-5-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-06-07 10:00:49,628 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-5] Job complete, jobBatchNumber=595, jobResultsSoFar=59431
+2024-06-07 10:00:49,629 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-5] Finished processing of items for step '2' in flow 'ProviderOrg'
+2024-06-07 10:00:49,890 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-5-thread-1] Collecting items for step '3' in flow 'ProviderOrg'
+2024-06-07 10:00:49,908 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-5-thread-1] Count of items collected: 317; will be processed in 317 batches based on batchSize of 1
+2024-06-07 10:00:49,915 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-5-thread-1] (withForestConfig) Using forests on [localhost] hosts for "ms-provider-STAGING"
+2024-06-07 10:00:49,915 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-5-thread-1] Starting processing of items for step '3' in flow 'ProviderOrg'
+2024-06-07 10:00:49,915 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-5-thread-1] Starting job forest length=3, docBatchSize=1, docToUriBatchRatio=1, threadCount=1, onUrisReady listeners=2, failure listeners=4
+2024-06-07 10:20:00,071 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-6] Job complete, jobBatchNumber=317, jobResultsSoFar=317
+2024-06-07 10:20:00,074 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-6] Finished processing of items for step '3' in flow 'ProviderOrg'
+2024-06-07 10:20:00,318 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-5-thread-1] Collecting items for step '4' in flow 'ProviderOrg'
+2024-06-07 10:20:00,362 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-5-thread-1] Count of items collected: 3832; will be processed in 3832 batches based on batchSize of 1
+2024-06-07 10:20:02,360 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-5-thread-1] (withForestConfig) Using forests on [localhost] hosts for "ms-provider-STAGING"
+2024-06-07 10:20:02,360 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-5-thread-1] Starting processing of items for step '4' in flow 'ProviderOrg'
+2024-06-07 10:20:02,360 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-5-thread-1] Starting job forest length=3, docBatchSize=1, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-06-07 10:21:46,748 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-7] Job complete, jobBatchNumber=3832, jobResultsSoFar=3832
+2024-06-07 10:21:46,749 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-7] Finished processing of items for step '4' in flow 'ProviderOrg'
+2024-06-07 10:21:46,922 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-5-thread-1] Collecting items for step '5' in flow 'ProviderOrg'
+2024-06-07 10:21:46,935 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-5-thread-1] No items found to process
+2024-06-07 10:21:46,965 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-5-thread-1] Collecting items for step '6' in flow 'ProviderOrg'
+2024-06-07 10:21:46,982 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-5-thread-1] No items found to process
+2024-06-07 10:52:54,846 INFO com.marklogic.hub.impl.HubConfigImpl [http-nio-8080-exec-9] Reading the datahub config for hubcentral from the datahubConfig.json file successful
+2024-06-07 10:52:54,848 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-9] App host: localhost
+2024-06-07 10:52:54,849 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-9] REST admin username: DrSmith
+2024-06-07 10:52:54,849 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-9] App Services username: DrSmith
+2024-06-07 10:52:54,850 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-9] Module permissions: %%mlModulePermissions%%
+2024-06-07 10:52:54,850 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-9] Admin interface host: localhost
+2024-06-07 10:52:54,851 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-9] Admin interface username: DrSmith
+2024-06-07 10:52:54,851 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-9] Manage host: localhost
+2024-06-07 10:52:54,851 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-9] Manage username: DrSmith
+2024-06-07 10:52:54,851 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-9] Manage user with security role: DrSmith
+2024-06-07 10:52:54,859 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-9] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]
+2024-06-07 10:52:54,873 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-9] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]
+2024-06-07 10:53:30,266 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-10-thread-1] Collecting items for step '4' in flow 'ProviderOrg'
+2024-06-07 10:53:30,348 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-10-thread-1] Count of items collected: 3832; will be processed in 3832 batches based on batchSize of 1
+2024-06-07 10:53:31,140 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-10-thread-1] (withForestConfig) Using forests on [localhost] hosts for "ms-provider-STAGING"
+2024-06-07 10:53:31,143 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-10-thread-1] Starting processing of items for step '4' in flow 'ProviderOrg'
+2024-06-07 10:53:31,143 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-10-thread-1] Starting job forest length=3, docBatchSize=1, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-06-07 10:55:11,962 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-9] Job complete, jobBatchNumber=3832, jobResultsSoFar=3832
+2024-06-07 10:55:11,964 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-9] Finished processing of items for step '4' in flow 'ProviderOrg'
+2024-06-07 10:58:48,299 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-12-thread-1] Collecting items for step '4' in flow 'ProviderOrg'
+2024-06-07 10:58:48,454 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-12-thread-1] Count of items collected: 3832; will be processed in 3832 batches based on batchSize of 1
+2024-06-07 10:58:49,356 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-12-thread-1] (withForestConfig) Using forests on [localhost] hosts for "ms-provider-STAGING"
+2024-06-07 10:58:49,356 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-12-thread-1] Starting processing of items for step '4' in flow 'ProviderOrg'
+2024-06-07 10:58:49,357 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-12-thread-1] Starting job forest length=3, docBatchSize=1, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-06-07 11:04:53,006 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-10] Job complete, jobBatchNumber=3832, jobResultsSoFar=3832
+2024-06-07 11:04:53,007 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-10] Finished processing of items for step '4' in flow 'ProviderOrg'
+2024-06-07 11:08:53,067 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-14-thread-1] Collecting items for step '4' in flow 'ProviderOrg'
+2024-06-07 11:08:53,108 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-14-thread-1] Count of items collected: 3832; will be processed in 3832 batches based on batchSize of 1
+2024-06-07 11:08:53,681 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-14-thread-1] (withForestConfig) Using forests on [localhost] hosts for "ms-provider-STAGING"
+2024-06-07 11:08:53,682 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-14-thread-1] Starting processing of items for step '4' in flow 'ProviderOrg'
+2024-06-07 11:08:53,682 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-14-thread-1] Starting job forest length=3, docBatchSize=1, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-06-07 11:16:17,836 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-11] Job complete, jobBatchNumber=3832, jobResultsSoFar=3832
+2024-06-07 11:16:17,837 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-11] Finished processing of items for step '4' in flow 'ProviderOrg'
+2024-06-07 11:16:31,642 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-16-thread-1] Collecting items for step '5' in flow 'ProviderOrg'
+2024-06-07 11:16:31,683 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-16-thread-1] Count of items collected: 4269; will be processed in 4269 batches based on batchSize of 1
+2024-06-07 11:16:32,212 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-16-thread-1] (withForestConfig) Using forests on [localhost] hosts for "ms-provider-STAGING"
+2024-06-07 11:16:32,213 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-16-thread-1] Starting processing of items for step '5' in flow 'ProviderOrg'
+2024-06-07 11:16:32,213 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-16-thread-1] Starting job forest length=3, docBatchSize=1, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-06-07 11:17:46,058 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-12] Job complete, jobBatchNumber=4269, jobResultsSoFar=4269
+2024-06-07 11:17:46,060 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-12] Finished processing of items for step '5' in flow 'ProviderOrg'
+2024-06-07 11:20:19,323 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-18-thread-1] Collecting items for step '6' in flow 'ProviderOrg'
+2024-06-07 11:20:19,350 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-18-thread-1] Count of items collected: 3037; will be processed in 31 batches based on batchSize of 100
+2024-06-07 11:20:19,354 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-18-thread-1] (withForestConfig) Using forests on [localhost] hosts for "ms-provider-STAGING"
+2024-06-07 11:20:19,354 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-18-thread-1] Starting processing of items for step '6' in flow 'ProviderOrg'
+2024-06-07 11:20:19,354 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-18-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-06-07 11:20:38,081 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-13] Job complete, jobBatchNumber=31, jobResultsSoFar=3037
+2024-06-07 11:20:38,082 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-13] Finished processing of items for step '6' in flow 'ProviderOrg'
+2024-06-07 17:23:35,536 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 11.0.16.1 on macpro-6186 with PID 58463 (/Users/ttierney/Documents/GitHub/ml-ms-poc/ms-data-hub-581/marklogic-data-hub-central-5.8.1.war started by ttierney in /Users/ttierney/Documents/GitHub/ml-ms-poc/ms-data-hub-581)
+2024-06-07 17:23:35,538 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-07 17:23:36,621 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-07 17:23:36,621 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-07 17:23:36,621 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-06-07 17:23:37,696 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-07 17:23:37,939 INFO com.marklogic.hub.central.HubCentral [main] Will connect to MarkLogic host: localhost
+2024-06-07 17:23:37,940 INFO com.marklogic.hub.central.HubCentral [main] Hub Central is available at port: 8080
+2024-06-07 17:23:38,594 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-07 17:23:38,958 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 3.896 seconds (JVM running for 4.29)

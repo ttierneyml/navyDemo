@@ -1,0 +1,12 @@
+2024-06-05 10:15:35,952 INFO com.marklogic.hub.impl.HubConfigImpl [http-nio-8080-exec-6] Reading the datahub config for hubcentral from the datahubConfig.json file successful
+2024-06-05 10:15:35,960 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-6] App host: localhost
+2024-06-05 10:15:35,961 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-6] REST admin username: DrSmith
+2024-06-05 10:15:35,961 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-6] App Services username: DrSmith
+2024-06-05 10:15:35,962 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-6] Module permissions: %%mlModulePermissions%%
+2024-06-05 10:15:35,962 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-6] Admin interface host: localhost
+2024-06-05 10:15:35,962 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-6] Admin interface username: DrSmith
+2024-06-05 10:15:35,963 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-6] Manage host: localhost
+2024-06-05 10:15:35,963 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-6] Manage username: DrSmith
+2024-06-05 10:15:35,963 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-6] Manage user with security role: DrSmith
+2024-06-05 10:15:35,977 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-6] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]
+2024-06-05 10:15:35,985 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-6] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]

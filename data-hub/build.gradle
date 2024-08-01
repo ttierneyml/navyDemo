@@ -1,0 +1,36 @@
+buildscript {
+  repositories {
+    mavenCentral() 
+    maven {
+     url 'https://bed-artifactory.bedford.progress.com:443/artifactory/ml-maven-snapshot-tierpoint/'
+    } 
+    dependencies {
+    classpath "com.marklogic:ml-data-hub:5.8.1"
+  } 
+}
+} 
+plugins {
+  id 'net.saliman.properties' version '1.4.6'
+      // Data Hub plugin
+  id 'com.marklogic.ml-data-hub' version '5.8.1'  
+}
+apply plugin: "com.marklogic.ml-data-hub"
+repositories {
+//  jcenter()
+//  maven {url "https://plugins.gradle.org/m2/"} - use this if youare testing Data Hub Beta war file from /develope branch
+  maven { url "https://developer.marklogic.com/maven2/" } 
+}
+
+configurations {
+  mlcp
+}
+
+dependencies {
+  // this allows you to write custom java code that depends
+  // on the Data Hub library
+//  implementation "com.marklogic:ml-data-hub:5.8-SNAPSHOT" - use this if youare testing Data Hub Beta war file from /develope branch
+//  implementation 'com.marklogic:marklogic-data-hub:5.8.1'
+//  implementation "com.marklogic:marklogic-data-hub:5.8.1"
+  mlcp "com.marklogic:mlcp:10.0.8.2"
+  mlcp files("lib")
+}

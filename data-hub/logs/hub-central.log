@@ -1,0 +1,26 @@
+2024-08-01 10:45:22,347 WARN okhttp3.internal.platform.Platform [http-nio-8080-exec-5] Previous digest authentication with same nonce failed, returning null
+2024-08-01 10:45:22,350 INFO com.marklogic.hub.impl.HubConfigImpl [http-nio-8080-exec-5] Could not find the datahubConfig.json file. Logging the cause for the failure
+2024-08-01 10:45:22,351 INFO com.marklogic.hub.impl.HubConfigImpl [http-nio-8080-exec-5] Local message: failed to POST at /data-hub/5/data-services/system/getDataHubConfig.sjs: Unauthorized. Server Message: Unauthorized
+2024-08-01 10:45:22,352 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-5] App host: localhost
+2024-08-01 10:45:22,352 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-5] REST admin username: DrSmith
+2024-08-01 10:45:22,352 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-5] App Services username: DrSmith
+2024-08-01 10:45:22,353 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-5] Admin interface host: localhost
+2024-08-01 10:45:22,353 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-5] Admin interface username: DrSmith
+2024-08-01 10:45:22,354 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-5] Manage host: localhost
+2024-08-01 10:45:22,354 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-5] Manage username: DrSmith
+2024-08-01 10:45:22,354 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-5] Manage user with security role: DrSmith
+2024-08-01 10:45:22,370 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-5] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]
+2024-08-01 10:45:22,386 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-5] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]
+2024-08-01 10:45:22,397 WARN okhttp3.internal.platform.Platform [http-nio-8080-exec-5] Previous digest authentication with same nonce failed, returning null
+2024-08-01 10:45:24,741 INFO com.marklogic.hub.impl.HubConfigImpl [http-nio-8080-exec-10] Reading the datahub config for hubcentral from the datahubConfig.json file successful
+2024-08-01 10:45:24,742 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-10] App host: localhost
+2024-08-01 10:45:24,742 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-10] REST admin username: DrSmith
+2024-08-01 10:45:24,742 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-10] App Services username: DrSmith
+2024-08-01 10:45:24,742 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-10] Module permissions: %%mlModulePermissions%%
+2024-08-01 10:45:24,743 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-10] Admin interface host: localhost
+2024-08-01 10:45:24,743 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-10] Admin interface username: DrSmith
+2024-08-01 10:45:24,743 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-10] Manage host: localhost
+2024-08-01 10:45:24,743 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-10] Manage username: DrSmith
+2024-08-01 10:45:24,743 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-10] Manage user with security role: DrSmith
+2024-08-01 10:45:24,751 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-10] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]
+2024-08-01 10:45:24,759 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-10] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]

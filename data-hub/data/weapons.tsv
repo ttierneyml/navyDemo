@@ -1,0 +1,43 @@
+Name	id	SerialNumber	Caliber	Action	Type
+M17	1000	SN1000	9x19mm Parabellum	Semi-Automatic	Pistol
+M9	1011	SN1011	9x19mm Parabellum	Semi-Automatic	Pistol
+P226	1018	SN1018	9x19mm Parabellum	Semi-Automatic	Pistol
+Mk 23 Mod 0	1021	SN1021	.45 ACP	Semi-Automatic	Pistol
+M1911	1026	SN1026	.45 ACP	Semi-Automatic	Pistol
+G19	1035	SN1035	9x19mm Parabellum	Semi-Automatic	Pistol
+HK45	1045	SN1045	.45 ACP	Semi-Automatic	Pistol
+MP5	1052	SN1052	9x19mm Parabellum	Automatic, Semi-Automatic	Submachine Gun
+MP7	1065	SN1065	HK 4.6x30mm	Automatic, Semi-Automatic	Submachine Gun
+M16	1080	SN1080	5.56x45mm NATO	Semi-Automatic, Three-Round Burst	Assault Rifle
+M4	1093	SN1093	5.56x45mm NATO	Semi-Automatic, Three-Round Burst	Assault Rifle
+HK416	1108	SN1108	5.56x45mm NATO	Semi-Automatic, Automatic	Assault Rifle
+HK417	13	SN013	7.62x51mm NATO	Semi-Automatic	Battle Rifle
+MK16 Mod 0	14	SN014	5.56x45mm NATO	Semi-Automatic, Automatic	Assault Rifle
+MK17 Mod 0	15	SN015	7.62x51mm NATO	Semi-Automatic, Automatic	Battle Rifle
+M14	16	SN016	7.62x51mm NATO	Semi-Automatic	Battle Rifle
+Mk 11 Mod 0	17	SN017	7.62x51mm NATO	Semi-Automatic	Sniper Rifle
+Mk12 SPR	18	SN018	5.56x45mm NATO	Semi-Automatic	Marksman Rifle
+Mk 13 Mod 5	19	SN019	.300 Winchester Magnum	Bolt	Sniper Rifle
+Tac-338	20	SN020	.338 Lapua Magnum	Bolt	Sniper Rifle
+Mk 15	21	SN021	.50 BMG	Bolt	Sniper Rifle
+50 cal	22	SN022	.50 BMG	Semi-Automatic	Sniper Rifle
+500 MILS	23	SN023	12-gauge	Pump	Shotgun
+M1014	24	SN024	12-gauge	Semi-Automatic	Shotgun
+M870	25	SN025	12-gauge	Pump	Shotgun
+M249	26	SN026	5.56x45mm NATO	Automatic	Light Machine Gun
+Mk 48	27	SN027	7.62x51mm NATO	Automatic	Light Machine Gun
+M240	28	SN028	7.62x51mm NATO	Automatic	Medium Machine Gun
+M60	29	SN029	7.62x51mm NATO	Automatic	Medium Machine Gun
+M2HB	30	SN030	.50 BMG	Automatic	Heavy Machine Gun
+Mk 19	31	SN031	40mm	Automatic	Grenade Launcher
+Mk 47 Striker	32	SN032	40mm	Automatic	Grenade Launcher
+M203	33	SN033	40mm	Single-Shot	Grenade Launcher
+M320	34	SN034	40mm	Single-Shot	Grenade Launcher
+Mk 14	35	SN035	40mm	Single-Shot	Grenade Launcher
+M67 Frag	36	SN036		Throw	Frag Hand Grenade
+M18	37	SN037		Throw	Smoke Grenade
+AT4	38	SN038	84mm	Single-Shot	Anti-Tank Weapon
+M3 MAAWS	39	SN039	84x246mm R	Single-Shot	Anti-Tank Weapon
+FGM-148 Javelin	40	SN040	127mm	Guided	Anti-Tank Weapon
+FIM-92 Stinger	41	SN041	70mm	Guided	Surface-to-Air Missile
+Mk 25 Mod 0 Minigun	42	SN042	7.62x51mm NATO	Automatic	Six-Barrel Gatling Gun

@@ -1,0 +1,10 @@
+2024-06-03 15:19:33,760 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 11.0.16.1 on macpro-6186 with PID 66781 (/Users/ttierney/Documents/GitHub/ml-ms-poc/ms-data-hub-581/marklogic-data-hub-central-5.8.1.war started by ttierney in /Users/ttierney/Documents/GitHub/ml-ms-poc/ms-data-hub-581)
+2024-06-03 15:19:33,763 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-03 15:19:34,755 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 15:19:34,756 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-03 15:19:34,756 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-06-03 15:19:35,796 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-03 15:19:35,966 INFO com.marklogic.hub.central.HubCentral [main] Will connect to MarkLogic host: localhost
+2024-06-03 15:19:35,966 INFO com.marklogic.hub.central.HubCentral [main] Hub Central is available at port: 8080
+2024-06-03 15:19:36,520 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 15:19:36,861 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 3.799 seconds (JVM running for 4.144)
