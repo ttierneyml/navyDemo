@@ -1,0 +1,14 @@
+nav.bg-primary {
+  background-color: hsl(230, 94%, 21%)!important;
+}
+.navheader-logo img {
+  height: 30px;
+  margin-top: -12px;
+}
+a{
+color: rgba(255, 255, 255, 0.512) !important;
+}
+a:hover{
+text-decoration: underline !important;
+text-decoration-color: rgba(255, 255, 255, 0.512) !important;
+}

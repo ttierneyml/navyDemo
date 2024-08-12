@@ -1,0 +1,18 @@
+{
+  "modeling": {
+    "entities": {
+      "weaponPart": {
+        "color": "#eeeff1",
+        "icon": "FaShapes",
+        "graphX": 0,
+        "graphY": -51
+      },
+      "weapon": {
+        "color": "#eeeff1",
+        "icon": "FaShapes"
+      }
+    },
+    "concepts": { },
+    "scale": 1.61169865411754
+  }
+}

@@ -1,0 +1,22 @@
+h5{
+  text-align: center;
+}
+.hover-effect {
+  cursor: pointer;
+}
+
+.hover-effect:hover {
+  background-color: rgb(205, 205, 205);
+}
+
+/* Ensure all <td> elements inherit the pointer cursor and do not override the background color */
+.hover-effect td {
+  cursor: pointer;
+  background-color: transparent !important;
+}
+.k-grid .k-grid-content tr:hover {
+  cursor: pointer !important;
+}
+.k-grid-header .k-header {
+  font-weight: bold;
+}

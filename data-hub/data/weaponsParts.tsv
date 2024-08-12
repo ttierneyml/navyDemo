@@ -1,0 +1,225 @@
+Name	id	SerialNumber	Model	AssignedTo
+Barrel	2000	CN2000	M17	1000
+Slide Assembly	2001	CN2001	M17	1000
+Recoil Spring Assembly	2002	CN2002	M17	1000
+Trigger Group	2003	CN2003	M17	1000
+Firing Pin Assembly	2004	CN2004	M17	1000
+Extractor	2005	CN2005	M17	1000
+Ejector	2006	CN2006	M17	1000
+Magazine	2007	CN2007	M17	1000
+Grips	2008	CN2008	M17	1000
+Barrel	2009	CN2009	MP7	1065
+Upper Receiver Assembly	2010	CN2010	MP7	1065
+Bolt Assembly	2011	CN2011	MP7	1065
+Recoil Spring Assembly	2012	CN2012	MP7	1065
+Charging Handle	2013	CN2013	MP7	1065
+Handguard	2014	CN2014	MP7	1065
+Pistol Grip	2015	CN2015	MP7	1065
+Magazine	2016	CN2016	MP7	1065
+Barrel	2017	CN2017	M16	1080
+Upper Receiver	2018	CN2018	M16	1080
+Bolt Carrier Group	2019	CN2019	M16	1080
+Recoil Spring	2020	CN2020	M16	1080
+Charging Handle	2021	CN2021	M16	1080
+Handguard	2022	CN2022	M16	1080
+Pistol Grip	2023	CN2023	M16	1080
+Magazine	2024	CN2024	M16	1080
+Lower Receiver	2025	CN2025	M16	1080
+Trigger Assembly	2026	CN2026	M16	1080
+Barrel	2027	CN2027	HK417	1120
+Upper Receiver	2028	CN2028	HK417	1120
+Bolt Carrier Group	2029	CN2029	HK417	1120
+Recoil Spring	2030	CN2030	HK417	1120
+Charging Handle	2031	CN2031	HK417	1120
+Handguard	2032	CN2032	HK417	1120
+Pistol Grip	2033	CN2033	HK417	1120
+Magazine	2034	CN2034	HK417	1120
+Lower Receiver	2035	CN2035	HK417	1120
+Trigger Assembly	2036	CN2036	HK417	1120
+Barrel	2037	CN2037	MK15	1222
+Upper Receiver	2038	CN2038	MK15	1222
+Bolt Carrier Group	2039	CN2039	MK15	1222
+Recoil Spring	2040	CN2040	MK15	1222
+Charging Handle	2041	CN2041	MK15	1222
+Handguard	2042	CN2042	MK15	1222
+Pistol Grip	2043	CN2043	MK15	1222
+Magazine	2044	CN2044	MK15	1222
+Lower Receiver	2045	CN2045	MK15	1222
+Trigger Assembly	2046	CN2046	MK15	1222
+Barrel	2047	CN2047	M1014	1246
+Gas System	2048	CN2048	M1014	1246
+Bolt Assembly	2049	CN2049	M1014	1246
+Recoil Spring	2050	CN2050	M1014	1246
+Charging Handle	2051	CN2051	M1014	1246
+Handguard	2052	CN2052	M1014	1246
+Stock	2053	CN2053	M1014	1246
+Pistol Grip	2054	CN2054	M1014	1246
+Magazine Tube	2055	CN2055	M1014	1246
+Trigger Assembly	2056	CN2056	M1014	1246
+Safety Selector	2057	CN2057	M1014	1246
+Barrel	2058	CN2058	M249	1258
+Gas Block Assembly	2059	CN2059	M249	1258
+Bolt Carrier Group	2060	CN2060	M249	1258
+Recoil Spring	2061	CN2061	M249	1258
+Charging Handle	2062	CN2062	M249	1258
+Handguard	2063	CN2063	M249	1258
+Pistol Grip	2064	CN2064	M249	1258
+Magazine	2065	CN2065	M249	1258
+Trigger Assembly	2066	CN2066	M249	1258
+Stock	2067	CN2067	M249	1258
+Feed Tray	2068	CN2068	M249	1258
+Link Belt	2069	CN2069	M249	1258
+Barrel	2070	CN2070	M240	1274
+Gas Regulator	2071	CN2071	M240	1274
+Bolt Assembly	2072	CN2072	M240	1274
+Recoil Spring	2073	CN2073	M240	1274
+Charging Handle	2074	CN2074	M240	1274
+Handguard	2075	CN2075	M240	1274
+Pistol Grip	2076	CN2076	M240	1274
+Trigger Assembly	2077	CN2077	M240	1274
+Stock	2078	CN2078	M240	1274
+Feed Tray	2079	CN2079	M240	1274
+Magazine	2080	CN2080	M240	1274
+Gas Cylinder	2081	CN2081	M240	1274
+Link Belt	2082	CN2082	M240	1274
+Barrel	2083	CN2083	MK14	1302
+Gas System	2084	CN2084	MK14	1302
+Bolt Carrier Group	2085	CN2085	MK14	1302
+Recoil Spring	2086	CN2086	MK14	1302
+Charging Handle	2087	CN2087	MK14	1302
+Handguard	2088	CN2088	MK14	1302
+Stock	2089	CN2089	MK14	1302
+Pistol Grip	2090	CN2090	MK14	1302
+Magazine	2091	CN2091	MK14	1302
+Trigger Assembly	2092	CN2092	MK14	1302
+Safety Selector	2093	CN2093	MK14	1302
+Flash Hider	2094	CN2094	MK14	1302
+Launcher Tube	2095	CN2095	FGM-148 Javelin	1395
+Guidance System	2096	CN2096	FGM-148 Javelin	1395
+Battery Pack	2097	CN2097	FGM-148 Javelin	1395
+Trigger Mechanism	2098	CN2098	FGM-148 Javelin	1395
+Infrared Guidance Unit	2099	CN2099	FGM-148 Javelin	1395
+Grip Assembly	2100	CN2100	FGM-148 Javelin	1395
+Launch Mechanism	2101	CN2101	FGM-148 Javelin	1395
+Optical Sight	2102	CN2102	FGM-148 Javelin	1395
+Shoulder Strap	2103	CN2103	FGM-148 Javelin	1395
+Cleaning Rod	2104	CN2104	FGM-148 Javelin	1395
+Barrel Assembly	2105	CN2105	Mk 25 Mod 0 Minigun	1405
+Rotor Assembly	2106	CN2106	Mk 25 Mod 0 Minigun	1405
+Bolt Assembly	2107	CN2107	Mk 25 Mod 0 Minigun	1405
+Recoil Spring	2108	CN2108	Mk 25 Mod 0 Minigun	1405
+Charging Handle	2109	CN2109	Mk 25 Mod 0 Minigun	1405
+Feed Chute	2110	CN2110	Mk 25 Mod 0 Minigun	1405
+Drive Motor	2111	CN2111	Mk 25 Mod 0 Minigun	1405
+Trigger Mechanism	2112	CN2112	Mk 25 Mod 0 Minigun	1405
+Gun Mount	2113	CN2113	Mk 25 Mod 0 Minigun	1405
+Link Belt	2114	CN2114	Mk 25 Mod 0 Minigun	1405
+Cleaning Rod	2115	CN2115	Mk 25 Mod 0 Minigun	1405
+Barrel	2116	CN2116	Phalanx	1900
+Barrel	2117	CN2117	Phalanx	1900
+Barrel	2118	CN2118	Phalanx	1900
+Barrel	2119	CN2119	Phalanx	1900
+Barrel	2120	CN2120	Phalanx	1900
+Barrel	2121	CN2121	Phalanx	1900
+Radar antenna	2122	CN2122	Phalanx	1900
+Hydraulic actuators	2123	CN2123	Phalanx	1900
+Control units	2124	CN2124	Phalanx	1900
+Ammunition handling system	2125	CN2125	Phalanx	1900
+Cooling system	2126	CN2126	Phalanx	1900
+Power supply unit	2127	CN2127	Phalanx	1900
+Barrel	2128	CN2128	Mk 45	1901
+Breech mechanism	2129	CN2129	Mk 45	1901
+Recoil system	2130	CN2130	Mk 45	1901
+Traverse motors	2131	CN2131	Mk 45	1901
+Elevation motors	2132	CN2132	Mk 45	1901
+Fire control system	2133	CN2133	Mk 45	1901
+Ammunition hoists	2134	CN2134	Mk 45	1901
+Cooling system	2135	CN2135	Mk 45	1901
+Barrel	2136	CN2136	Mk 44	1902
+Feed system	2137	CN2137	Mk 44	1902
+Bolt Assembly	2138	CN2138	Mk 44	1902
+Recoil mechanism	2139	CN2139	Mk 44	1902
+Traverse motors	2140	CN2140	Mk 44	1902
+Elevation motors	2141	CN2141	Mk 44	1902
+Fire control system	2142	CN2142	Mk 44	1902
+Barrel	2143	CN2143	Bofors	1903
+Breech mechanism	2144	CN2144	Bofors	1903
+Ammunition feed system	2145	CN2145	Bofors	1903
+Recoil system	2146	CN2146	Bofors	1903
+Traverse motors	2147	CN2147	Bofors	1903
+Elevation motors	2148	CN2148	Bofors	1903
+Fire control system	2149	CN2149	Bofors	1903
+Barrel	2150	CN2150	Mk 38	1904
+Bolt Assembly	2151	CN2151	Mk 38	1904
+Feed system	2152	CN2152	Mk 38	1904
+Recoil mechanism	2153	CN2153	Mk 38	1904
+Fire control system	2154	CN2154	Mk 38	1904
+Mounting hardware	2155	CN2155	Mk 38	1904
+Launch canister	2156	CN2156	Mk 41	1905
+Launch canister	2157	CN2157	Mk 41	1905
+Launch canister	2158	CN2158	Mk 41	1905
+Launch canister	2159	CN2159	Mk 41	1905
+Launch canister	2160	CN2160	Mk 41	1905
+Launch canister	2161	CN2161	Mk 41	1905
+Launch canister	2162	CN2162	Mk 41	1905
+Launch canister	2163	CN2163	Mk 41	1905
+Canister gas management system	2164	CN2164	Mk 41	1905
+Hatch	2165	CN2165	Mk 41	1905
+Hatch	2166	CN2166	Mk 41	1905
+Hatch	2167	CN2167	Mk 41	1905
+Hatch	2168	CN2168	Mk 41	1905
+Hatch	2169	CN2169	Mk 41	1905
+Hatch	2170	CN2170	Mk 41	1905
+Hatch	2171	CN2171	Mk 41	1905
+Hatch	2172	CN2172	Mk 41	1905
+Hatch Actuator	2173	CN2173	Mk 41	1905
+Hatch Actuator	2174	CN2174	Mk 41	1905
+Hatch Actuator	2175	CN2175	Mk 41	1905
+Hatch Actuator	2176	CN2176	Mk 41	1905
+Hatch Actuator	2177	CN2177	Mk 41	1905
+Hatch Actuator	2178	CN2178	Mk 41	1905
+Hatch Actuator	2179	CN2179	Mk 41	1905
+Hatch Actuator	2180	CN2180	Mk 41	1905
+Electronic control unit	2181	CN2181	Mk 41	1905
+Power supply unit	2182	CN2182	Mk 41	1905
+Cooling system	2183	CN2183	Mk 41	1905
+Launch rail	2184	CN2184	Mk 29	1906
+Launch rail	2185	CN2185	Mk 29	1906
+Launch rail	2186	CN2186	Mk 29	1906
+Launch rail	2187	CN2187	Mk 29	1906
+Launch rail	2188	CN2188	Mk 29	1906
+Launch rail	2189	CN2189	Mk 29	1906
+Launch rail	2190	CN2190	Mk 29	1906
+Launch rail	2191	CN2191	Mk 29	1906
+Traverse motors	2192	CN2192	Mk 29	1906
+Elevation motors	2193	CN2193	Mk 29	1906
+Fire control system	2194	CN2194	Mk 29	1906
+Hydraulic actuator	2195	CN2195	Mk 29	1906
+Power supply unit	2196	CN2196	Mk 29	1906
+Structure	2197	CN2197	Mk 29	1906
+Launch rail	2198	CN2198	Mk 48	1907
+Launch rail	2199	CN2199	Mk 48	1907
+Launch rail	2200	CN2200	Mk 48	1907
+Launch rail	2201	CN2201	Mk 48	1907
+Launch rail	2202	CN2202	Mk 48	1907
+Launch rail	2203	CN2203	Mk 48	1907
+Launch rail	2204	CN2204	Mk 48	1907
+Launch rail	2205	CN2205	Mk 48	1907
+Traverse motors	2206	CN2206	Mk 48	1907
+Elevation motors	2207	CN2207	Mk 48	1907
+Fire control system	2208	CN2208	Mk 48	1907
+Hydraulic actuator	2209	CN2209	Mk 48	1907
+Power supply unit	2210	CN2210	Mk 48	1907
+Structure	2211	CN2211	Mk 48	1907
+Launch tube	2212	CN2212	Mk 53	1908
+Launch tube	2213	CN2213	Mk 53	1908
+Launch tube	2214	CN2214	Mk 53	1908
+Launch tube	2215	CN2215	Mk 53	1908
+Decoy canister	2216	CN2216	Mk 53	1908
+Decoy canister	2217	CN2217	Mk 53	1908
+Decoy canister	2218	CN2218	Mk 53	1908
+Decoy canister	2219	CN2219	Mk 53	1908
+Electronic control unit	2220	CN2220	Mk 53	1908
+Power supply unit	2221	CN2221	Mk 53	1908
+Hydraulic actuator	2222	CN2222	Mk 53	1908
+Mounting hardware	2223	CN2223	Mk 53	1908

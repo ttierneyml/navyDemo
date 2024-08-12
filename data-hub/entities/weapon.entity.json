@@ -1,0 +1,57 @@
+{
+  "info": {
+    "title": "weapon",
+    "draft": false,
+    "version": "1.0.0",
+    "baseUri": "http://example.org/"
+  },
+  "definitions": {
+    "weapon": {
+      "properties": {
+        "id": {
+          "datatype": "integer",
+          "facetable": false,
+          "sortable": false,
+          "collation": "http://marklogic.com/collation/codepoint"
+        },
+        "Name": {
+          "datatype": "string",
+          "facetable": true,
+          "sortable": true,
+          "collation": "http://marklogic.com/collation/codepoint"
+        },
+        "SerialNumber": {
+          "datatype": "string",
+          "facetable": false,
+          "sortable": false,
+          "collation": "http://marklogic.com/collation/codepoint"
+        },
+        "Action": {
+          "datatype": "array",
+          "facetable": true,
+          "sortable": true,
+          "items": {
+            "datatype": "string",
+            "collation": "http://marklogic.com/collation/codepoint"
+          }
+        },
+        "Type": {
+          "datatype": "string",
+          "facetable": true,
+          "sortable": true,
+          "collation": "http://marklogic.com/collation/codepoint"
+        },
+        "Caliber": {
+          "datatype": "string",
+          "facetable": true,
+          "sortable": true,
+          "collation": "http://marklogic.com/collation/codepoint"
+        }
+      },
+      "primaryKey": "id"
+    },
+    "List": {
+      "properties": { }
+    }
+  }
+}

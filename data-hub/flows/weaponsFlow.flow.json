@@ -1,0 +1,12 @@
+{
+  "name": "weaponsFlow",
+  "steps": {
+    "1": {
+      "stepId": "loadWeapons-ingestion"
+    },
+    "2": {
+      "stepId": "mapWeapons-mapping"
+    }
+  },
+  "lastUpdated": "2024-08-06T12:38:40.499355-04:00"
+}

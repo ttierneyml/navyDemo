@@ -1,0 +1,12 @@
+{
+  "name": "weaponPartsFlow",
+  "steps": {
+    "1": {
+      "stepId": "loadWeaponParts-ingestion"
+    },
+    "2": {
+      "stepId": "mapWeaponParts-mapping"
+    }
+  },
+  "lastUpdated": "2024-08-01T15:34:45.118284-04:00"
+}

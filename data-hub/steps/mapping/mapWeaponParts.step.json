@@ -1,0 +1,59 @@
+{
+  "collections": [
+    "mapWeaponParts",
+    "weaponPart",
+    "parts",
+    "finalNavy"
+  ],
+  "additionalCollections": [ ],
+  "permissions": "data-hub-common,read,data-hub-common,update",
+  "batchSize": 100,
+  "validateEntity": "doNotValidate",
+  "targetFormat": "json",
+  "attachSourceDocument": false,
+  "sourceRecordScope": "instanceOnly",
+  "name": "mapWeaponParts",
+  "targetEntityType": "http://example.org/weaponPart-1.0.0/weaponPart",
+  "description": "",
+  "collection": [
+    "loadWeaponParts"
+  ],
+  "selectedSource": "collection",
+  "sourceQuery": "cts.collectionQuery(['loadWeaponParts'])",
+  "targetDatabase": "navy-FINAL",
+  "headers": { },
+  "interceptors": [
+    {
+      "path": "/custom-modules/step-interceptors/addWeaponToPartsTriples.sjs",
+      "when": "beforeMain"
+    }
+  ],
+  "provenanceGranularityLevel": "off",
+  "customHook": { },
+  "sourceDatabase": "navy-STAGING",
+  "mappingParametersModulePath": "",
+  "stepDefinitionName": "entity-services-mapping",
+  "stepDefinitionType": "mapping",
+  "stepId": "mapWeaponParts-mapping",
+  "acceptsBatch": true,
+  "lastUpdated": "2024-08-09T17:13:02.532755-04:00",
+  "uriExpression": "concat(\"/\", encode-for-uri(/Name),\"/\", /id)",
+  "properties": {
+    "id": {
+      "sourcedFrom": "/id"
+    },
+    "Name": {
+      "sourcedFrom": "/Name"
+    },
+    "SerialNumber": {
+      "sourcedFrom": "/SerialNumber"
+    },
+    "Model": {
+      "sourcedFrom": "/Model"
+    },
+    "URI": {
+      "sourcedFrom": ""
+    }
+  },
+  "namespaces": { }
+}

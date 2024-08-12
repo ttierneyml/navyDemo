@@ -10,4 +10,13 @@
         <search:max-matches>4</search:max-matches>
         <search:max-snippet-chars>200</search:max-snippet-chars>
     </search:transform-results>
+    <search:constraint name="Model">
+        <search:range type="xs:string" facet="true" collation="http://marklogic.com/collation/codepoint">
+            <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weapon/Name</search:path-index>
+            <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weaponPart/Model</search:path-index>
+            <search:facet-option>limit=25</search:facet-option>
+            <search:facet-option>frequency-order</search:facet-option>
+            <search:facet-option>descending</search:facet-option>
+        </search:range>
+    </search:constraint>
 </search:options>
