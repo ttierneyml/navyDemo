@@ -10,5 +10,5 @@ Initialize database:
 
 Frontend setup:
 
-1. Begin by changing directories to fasttrack-middle: cd fasttrack-middle. Run: npm run start.
-2. Switch to ui directory cd ../ui. Run: npm run dev.
+1. Begin by changing directories to fasttrack-middle: cd fasttrack-middle. Ensure node_modules are up to date: npm install. Run: npm run start.
+2. Switch to ui directory cd ../ui. Ensure node modules are up to date: npm install. Run: npm run dev.
