@@ -1,73 +1,384 @@
-2024-08-09 16:08:41,560 INFO com.marklogic.hub.impl.HubConfigImpl [http-nio-8080-exec-7] Reading the datahub config for hubcentral from the datahubConfig.json file successful
-2024-08-09 16:08:41,566 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-7] App host: localhost
-2024-08-09 16:08:41,566 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-7] REST admin username: DrSmith
-2024-08-09 16:08:41,566 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-7] App Services username: DrSmith
-2024-08-09 16:08:41,567 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-7] Module permissions: %%mlModulePermissions%%
-2024-08-09 16:08:41,567 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-7] Admin interface host: localhost
-2024-08-09 16:08:41,567 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-7] Admin interface username: DrSmith
-2024-08-09 16:08:41,568 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-7] Manage host: localhost
-2024-08-09 16:08:41,568 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-7] Manage username: DrSmith
-2024-08-09 16:08:41,568 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-7] Manage user with security role: DrSmith
-2024-08-09 16:08:41,584 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-7] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]
-2024-08-09 16:08:41,599 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-7] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]
-2024-08-09 16:09:07,611 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-1-thread-1] Collecting items for step '2' in flow 'weaponPartsFlow'
-2024-08-09 16:09:08,013 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-1-thread-1] Count of items collected: 224; will be processed in 3 batches based on batchSize of 100
-2024-08-09 16:09:08,951 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-1-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
-2024-08-09 16:09:08,955 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-1-thread-1] Starting processing of items for step '2' in flow 'weaponPartsFlow'
-2024-08-09 16:09:08,956 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-1-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
-2024-08-09 16:09:10,099 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-2] Job complete, jobBatchNumber=3, jobResultsSoFar=224
-2024-08-09 16:09:10,099 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-2] Finished processing of items for step '2' in flow 'weaponPartsFlow'
-2024-08-09 16:10:58,456 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-3-thread-1] Collecting items for step '2' in flow 'weaponPartsFlow'
-2024-08-09 16:10:58,555 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-3-thread-1] Count of items collected: 224; will be processed in 3 batches based on batchSize of 100
-2024-08-09 16:10:59,107 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-3-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
-2024-08-09 16:10:59,108 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-3-thread-1] Starting processing of items for step '2' in flow 'weaponPartsFlow'
-2024-08-09 16:10:59,108 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-3-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
-2024-08-09 16:10:59,934 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-3] Job complete, jobBatchNumber=3, jobResultsSoFar=224
-2024-08-09 16:10:59,934 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-3] Finished processing of items for step '2' in flow 'weaponPartsFlow'
-2024-08-09 16:12:52,978 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-5-thread-1] Collecting items for step '2' in flow 'weaponPartsFlow'
-2024-08-09 16:12:52,999 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-5-thread-1] Count of items collected: 224; will be processed in 3 batches based on batchSize of 100
-2024-08-09 16:12:53,564 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-5-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
-2024-08-09 16:12:53,565 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-5-thread-1] Starting processing of items for step '2' in flow 'weaponPartsFlow'
-2024-08-09 16:12:53,565 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-5-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
-2024-08-09 16:12:54,385 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-4] Job complete, jobBatchNumber=3, jobResultsSoFar=224
-2024-08-09 16:12:54,386 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-4] Finished processing of items for step '2' in flow 'weaponPartsFlow'
-2024-08-09 16:21:43,222 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-7-thread-1] Collecting items for step '2' in flow 'weaponPartsFlow'
-2024-08-09 16:21:43,294 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-7-thread-1] Count of items collected: 224; will be processed in 3 batches based on batchSize of 100
-2024-08-09 16:21:43,813 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-7-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
-2024-08-09 16:21:43,814 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-7-thread-1] Starting processing of items for step '2' in flow 'weaponPartsFlow'
-2024-08-09 16:21:43,814 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-7-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
-2024-08-09 16:21:44,938 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-5] Job complete, jobBatchNumber=3, jobResultsSoFar=224
-2024-08-09 16:21:44,939 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-5] Finished processing of items for step '2' in flow 'weaponPartsFlow'
-2024-08-09 17:07:03,752 INFO com.marklogic.hub.impl.HubConfigImpl [http-nio-8080-exec-2] Reading the datahub config for hubcentral from the datahubConfig.json file successful
-2024-08-09 17:07:03,756 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-2] App host: localhost
-2024-08-09 17:07:03,756 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-2] REST admin username: DrSmith
-2024-08-09 17:07:03,757 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-2] App Services username: DrSmith
-2024-08-09 17:07:03,757 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-2] Module permissions: %%mlModulePermissions%%
-2024-08-09 17:07:03,757 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-2] Admin interface host: localhost
-2024-08-09 17:07:03,757 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-2] Admin interface username: DrSmith
-2024-08-09 17:07:03,757 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-2] Manage host: localhost
-2024-08-09 17:07:03,758 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-2] Manage username: DrSmith
-2024-08-09 17:07:03,758 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-2] Manage user with security role: DrSmith
-2024-08-09 17:07:03,824 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-2] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]
-2024-08-09 17:07:03,844 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-2] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]
-2024-08-09 17:14:57,140 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-9-thread-1] Collecting items for step '2' in flow 'weaponPartsFlow'
-2024-08-09 17:14:57,229 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-9-thread-1] Count of items collected: 224; will be processed in 3 batches based on batchSize of 100
-2024-08-09 17:14:57,780 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-9-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
-2024-08-09 17:14:57,780 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-9-thread-1] Starting processing of items for step '2' in flow 'weaponPartsFlow'
-2024-08-09 17:14:57,780 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-9-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
-2024-08-09 17:14:58,633 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-6] Job complete, jobBatchNumber=3, jobResultsSoFar=224
-2024-08-09 17:14:58,633 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-6] Finished processing of items for step '2' in flow 'weaponPartsFlow'
-2024-08-09 17:16:02,689 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-11-thread-1] Collecting items for step '2' in flow 'weaponsFlow'
-2024-08-09 17:16:02,794 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-11-thread-1] Count of items collected: 50; will be processed in a single batch based on batchSize of 100
-2024-08-09 17:16:02,802 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-11-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
-2024-08-09 17:16:02,803 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-11-thread-1] Starting processing of items for step '2' in flow 'weaponsFlow'
-2024-08-09 17:16:02,803 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-11-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
-2024-08-09 17:16:03,079 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-7] Job complete, jobBatchNumber=1, jobResultsSoFar=50
-2024-08-09 17:16:03,080 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-7] Finished processing of items for step '2' in flow 'weaponsFlow'
-2024-08-09 17:16:18,116 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-13-thread-1] Collecting items for step '2' in flow 'weaponPartsFlow'
-2024-08-09 17:16:18,215 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-13-thread-1] Count of items collected: 224; will be processed in 3 batches based on batchSize of 100
-2024-08-09 17:16:18,222 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-13-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
-2024-08-09 17:16:18,227 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-13-thread-1] Starting processing of items for step '2' in flow 'weaponPartsFlow'
-2024-08-09 17:16:18,227 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-13-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
-2024-08-09 17:16:18,876 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-8] Job complete, jobBatchNumber=3, jobResultsSoFar=224
-2024-08-09 17:16:18,878 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-8] Finished processing of items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 11:05:19,150 INFO com.marklogic.hub.impl.HubConfigImpl [http-nio-8080-exec-3] Reading the datahub config for hubcentral from the datahubConfig.json file successful
+2024-08-14 11:05:19,212 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-3] App host: localhost
+2024-08-14 11:05:19,213 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-3] REST admin username: DrSmith
+2024-08-14 11:05:19,213 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-3] App Services username: DrSmith
+2024-08-14 11:05:19,213 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-3] Module permissions: %%mlModulePermissions%%
+2024-08-14 11:05:19,214 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-3] Admin interface host: localhost
+2024-08-14 11:05:19,214 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-3] Admin interface username: DrSmith
+2024-08-14 11:05:19,215 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-3] Manage host: localhost
+2024-08-14 11:05:19,222 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-3] Manage username: DrSmith
+2024-08-14 11:05:19,223 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-3] Manage user with security role: DrSmith
+2024-08-14 11:05:19,244 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-3] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]
+2024-08-14 11:05:19,253 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-3] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]
+2024-08-14 11:05:24,269 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-30-thread-1] Collecting items for step '2' in flow 'weaponsFlow'
+2024-08-14 11:05:24,341 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-30-thread-1] Count of items collected: 50; will be processed in a single batch based on batchSize of 100
+2024-08-14 11:05:24,924 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-30-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 11:05:24,924 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-30-thread-1] Starting processing of items for step '2' in flow 'weaponsFlow'
+2024-08-14 11:05:24,924 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-30-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-08-14 11:05:25,654 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-21] Job complete, jobBatchNumber=1, jobResultsSoFar=50
+2024-08-14 11:05:25,654 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-21] Finished processing of items for step '2' in flow 'weaponsFlow'
+2024-08-14 12:01:24,710 INFO com.marklogic.hub.impl.HubConfigImpl [http-nio-8080-exec-2] Reading the datahub config for hubcentral from the datahubConfig.json file successful
+2024-08-14 12:01:24,713 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-2] App host: localhost
+2024-08-14 12:01:24,713 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-2] REST admin username: DrSmith
+2024-08-14 12:01:24,713 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-2] App Services username: DrSmith
+2024-08-14 12:01:24,713 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-2] Module permissions: %%mlModulePermissions%%
+2024-08-14 12:01:24,713 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-2] Admin interface host: localhost
+2024-08-14 12:01:24,714 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-2] Admin interface username: DrSmith
+2024-08-14 12:01:24,714 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-2] Manage host: localhost
+2024-08-14 12:01:24,714 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-2] Manage username: DrSmith
+2024-08-14 12:01:24,714 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-2] Manage user with security role: DrSmith
+2024-08-14 12:01:24,727 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-2] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]
+2024-08-14 12:01:24,736 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-2] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]
+2024-08-14 12:01:28,770 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-32-thread-1] Collecting items for step '2' in flow 'weaponsFlow'
+2024-08-14 12:01:28,846 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-32-thread-1] Count of items collected: 50; will be processed in a single batch based on batchSize of 100
+2024-08-14 12:01:29,412 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-32-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 12:01:29,416 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-32-thread-1] Starting processing of items for step '2' in flow 'weaponsFlow'
+2024-08-14 12:01:29,416 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-32-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-08-14 12:01:30,201 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-23] Job complete, jobBatchNumber=1, jobResultsSoFar=50
+2024-08-14 12:01:30,201 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-23] Finished processing of items for step '2' in flow 'weaponsFlow'
+2024-08-14 12:01:34,172 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-34-thread-1] Collecting items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 12:01:34,262 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-34-thread-1] Count of items collected: 224; will be processed in 3 batches based on batchSize of 100
+2024-08-14 12:01:34,266 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-34-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 12:01:34,267 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-34-thread-1] Starting processing of items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 12:01:34,267 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-34-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-08-14 12:01:34,891 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-24] Job complete, jobBatchNumber=3, jobResultsSoFar=224
+2024-08-14 12:01:34,892 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-24] Finished processing of items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 12:04:19,896 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-36-thread-1] Collecting items for step '2' in flow 'weaponsFlow'
+2024-08-14 12:04:19,963 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-36-thread-1] Count of items collected: 50; will be processed in a single batch based on batchSize of 100
+2024-08-14 12:04:20,531 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-36-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 12:04:20,532 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-36-thread-1] Starting processing of items for step '2' in flow 'weaponsFlow'
+2024-08-14 12:04:20,532 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-36-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-08-14 12:04:21,276 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-25] Job complete, jobBatchNumber=1, jobResultsSoFar=50
+2024-08-14 12:04:21,277 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-25] Finished processing of items for step '2' in flow 'weaponsFlow'
+2024-08-14 12:04:45,865 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-38-thread-1] Collecting items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 12:04:45,954 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-38-thread-1] Count of items collected: 224; will be processed in 3 batches based on batchSize of 100
+2024-08-14 12:04:45,960 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-38-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 12:04:45,961 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-38-thread-1] Starting processing of items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 12:04:45,961 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-38-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-08-14 12:04:46,552 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-26] Job complete, jobBatchNumber=3, jobResultsSoFar=224
+2024-08-14 12:04:46,552 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-26] Finished processing of items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 12:45:34,672 INFO com.marklogic.hub.impl.HubConfigImpl [http-nio-8080-exec-7] Reading the datahub config for hubcentral from the datahubConfig.json file successful
+2024-08-14 12:45:34,673 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-7] App host: localhost
+2024-08-14 12:45:34,673 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-7] REST admin username: DrSmith
+2024-08-14 12:45:34,673 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-7] App Services username: DrSmith
+2024-08-14 12:45:34,673 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-7] Module permissions: %%mlModulePermissions%%
+2024-08-14 12:45:34,674 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-7] Admin interface host: localhost
+2024-08-14 12:45:34,674 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-7] Admin interface username: DrSmith
+2024-08-14 12:45:34,674 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-7] Manage host: localhost
+2024-08-14 12:45:34,674 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-7] Manage username: DrSmith
+2024-08-14 12:45:34,674 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-7] Manage user with security role: DrSmith
+2024-08-14 12:45:34,683 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-7] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]
+2024-08-14 12:45:34,691 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-7] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]
+2024-08-14 12:45:48,434 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-5] Uploading files to /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-10729249710287467004 in the server. If 'inputFilePath'  is specified in the ingestion step, this path overrides it.
+2024-08-14 12:45:48,440 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-5] Files successfully uploaded
+2024-08-14 12:45:49,090 INFO com.marklogic.hub.step.impl.FileCollector [pool-40-thread-1] Finding files in directory: /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-10729249710287467004
+2024-08-14 12:45:50,034 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-40-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 12:45:50,034 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-40-thread-1] Adding DatabaseClient on port 8010 for host "localhost" to the rotation
+2024-08-14 12:45:50,035 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-40-thread-1] threadCount=4
+2024-08-14 12:45:50,035 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-40-thread-1] batchSize=100
+2024-08-14 12:45:50,039 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [Thread-28] flushing 50 queued docs
+2024-08-14 12:45:51,706 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-40-thread-1] Collecting items for step '2' in flow 'weaponsFlow'
+2024-08-14 12:45:51,728 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-40-thread-1] Count of items collected: 100; will be processed in a single batch based on batchSize of 100
+2024-08-14 12:45:51,732 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-40-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 12:45:51,733 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-40-thread-1] Starting processing of items for step '2' in flow 'weaponsFlow'
+2024-08-14 12:45:51,733 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-40-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-08-14 12:45:52,782 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-29] Job complete, jobBatchNumber=1, jobResultsSoFar=100
+2024-08-14 12:45:52,783 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-29] Finished processing of items for step '2' in flow 'weaponsFlow'
+2024-08-14 12:46:03,782 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-6] Uploading files to /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-642870970490986229 in the server. If 'inputFilePath'  is specified in the ingestion step, this path overrides it.
+2024-08-14 12:46:03,787 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-6] Files successfully uploaded
+2024-08-14 12:46:03,847 INFO com.marklogic.hub.step.impl.FileCollector [pool-43-thread-1] Finding files in directory: /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-642870970490986229
+2024-08-14 12:46:03,865 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-43-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 12:46:03,865 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-43-thread-1] Adding DatabaseClient on port 8010 for host "localhost" to the rotation
+2024-08-14 12:46:03,866 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-43-thread-1] threadCount=4
+2024-08-14 12:46:03,866 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-43-thread-1] batchSize=100
+2024-08-14 12:46:03,885 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [Thread-30] flushing 24 queued docs
+2024-08-14 12:46:04,587 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-43-thread-1] Collecting items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 12:46:04,612 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-43-thread-1] Count of items collected: 448; will be processed in 5 batches based on batchSize of 100
+2024-08-14 12:46:04,616 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-43-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 12:46:04,616 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-43-thread-1] Starting processing of items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 12:46:04,616 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-43-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-08-14 12:46:08,003 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-31] Job complete, jobBatchNumber=5, jobResultsSoFar=448
+2024-08-14 12:46:08,005 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-31] Finished processing of items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 13:08:20,090 INFO com.marklogic.hub.central.controllers.ModelController [http-nio-8080-exec-7] Generating model-based resource configurations
+2024-08-14 13:08:20,190 INFO com.marklogic.hub.central.controllers.ModelController [http-nio-8080-exec-7] Deploying search options
+2024-08-14 13:08:22,258 INFO com.marklogic.hub.central.controllers.ModelController [http-nio-8080-exec-7] Deploying protected paths
+2024-08-14 13:08:22,258 INFO com.marklogic.hub.central.controllers.ModelController [http-nio-8080-exec-7] Deploying query rolesets
+2024-08-14 13:08:22,259 INFO com.marklogic.hub.central.controllers.ModelController [http-nio-8080-exec-7] Deploying database indexes
+2024-08-14 13:08:22,259 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-7] Sending JSON GET request as user 'DrSmith' to path: /manage/v2/databases/navy-STAGING/properties
+2024-08-14 13:08:23,412 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-7] Sending JSON PUT request as user 'DrSmith' to path: /manage/v2/databases/navy-STAGING/properties
+2024-08-14 13:08:24,173 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-7] Sending JSON GET request as user 'DrSmith' to path: /manage/v2/databases/navy-FINAL/properties
+2024-08-14 13:08:25,220 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-7] Sending JSON PUT request as user 'DrSmith' to path: /manage/v2/databases/navy-FINAL/properties
+2024-08-14 13:08:25,893 INFO com.marklogic.hub.central.controllers.ModelController [http-nio-8080-exec-7] Finished generating and deploying model-based resource configurations, time: 5803
+2024-08-14 13:09:04,736 INFO com.marklogic.hub.central.controllers.ModelController [http-nio-8080-exec-1] Generating model-based resource configurations
+2024-08-14 13:09:04,759 INFO com.marklogic.hub.central.controllers.ModelController [http-nio-8080-exec-1] Deploying search options
+2024-08-14 13:09:06,887 INFO com.marklogic.hub.central.controllers.ModelController [http-nio-8080-exec-1] Deploying protected paths
+2024-08-14 13:09:06,887 INFO com.marklogic.hub.central.controllers.ModelController [http-nio-8080-exec-1] Deploying query rolesets
+2024-08-14 13:09:06,887 INFO com.marklogic.hub.central.controllers.ModelController [http-nio-8080-exec-1] Deploying database indexes
+2024-08-14 13:09:06,887 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-1] Sending JSON GET request as user 'DrSmith' to path: /manage/v2/databases/navy-STAGING/properties
+2024-08-14 13:09:07,873 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-1] Sending JSON PUT request as user 'DrSmith' to path: /manage/v2/databases/navy-STAGING/properties
+2024-08-14 13:09:08,575 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-1] Sending JSON GET request as user 'DrSmith' to path: /manage/v2/databases/navy-FINAL/properties
+2024-08-14 13:09:09,650 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-1] Sending JSON PUT request as user 'DrSmith' to path: /manage/v2/databases/navy-FINAL/properties
+2024-08-14 13:09:10,316 INFO com.marklogic.hub.central.controllers.ModelController [http-nio-8080-exec-1] Finished generating and deploying model-based resource configurations, time: 5580
+2024-08-14 13:10:42,434 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-3] Uploading files to /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-5686420275175650349 in the server. If 'inputFilePath'  is specified in the ingestion step, this path overrides it.
+2024-08-14 13:10:42,445 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-3] Files successfully uploaded
+2024-08-14 13:10:42,962 INFO com.marklogic.hub.step.impl.FileCollector [pool-46-thread-1] Finding files in directory: /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-5686420275175650349
+2024-08-14 13:10:43,979 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-46-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 13:10:43,980 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-46-thread-1] Adding DatabaseClient on port 8010 for host "localhost" to the rotation
+2024-08-14 13:10:43,982 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-46-thread-1] threadCount=4
+2024-08-14 13:10:43,982 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-46-thread-1] batchSize=100
+2024-08-14 13:10:43,987 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [Thread-32] flushing 50 queued docs
+2024-08-14 13:10:45,351 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-46-thread-1] Collecting items for step '2' in flow 'weaponsFlow'
+2024-08-14 13:10:45,376 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-46-thread-1] Count of items collected: 150; will be processed in 2 batches based on batchSize of 100
+2024-08-14 13:10:45,380 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-46-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 13:10:45,380 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-46-thread-1] Starting processing of items for step '2' in flow 'weaponsFlow'
+2024-08-14 13:10:45,380 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-46-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-08-14 13:10:46,007 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-33] Job complete, jobBatchNumber=2, jobResultsSoFar=150
+2024-08-14 13:10:46,008 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-33] Finished processing of items for step '2' in flow 'weaponsFlow'
+2024-08-14 13:16:37,432 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-7] Uploading files to /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-14365680283855289407 in the server. If 'inputFilePath'  is specified in the ingestion step, this path overrides it.
+2024-08-14 13:16:37,446 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-7] Files successfully uploaded
+2024-08-14 13:16:37,906 INFO com.marklogic.hub.step.impl.FileCollector [pool-49-thread-1] Finding files in directory: /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-14365680283855289407
+2024-08-14 13:16:38,535 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-49-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 13:16:38,535 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-49-thread-1] Adding DatabaseClient on port 8010 for host "localhost" to the rotation
+2024-08-14 13:16:38,535 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-49-thread-1] threadCount=4
+2024-08-14 13:16:38,535 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-49-thread-1] batchSize=100
+2024-08-14 13:16:38,539 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [Thread-35] flushing 24 queued docs
+2024-08-14 13:16:40,031 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-49-thread-1] Collecting items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 13:16:40,057 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-49-thread-1] Count of items collected: 672; will be processed in 7 batches based on batchSize of 100
+2024-08-14 13:16:40,064 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-49-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 13:16:40,064 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-49-thread-1] Starting processing of items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 13:16:40,066 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-49-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-08-14 13:17:48,444 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-36] Job complete, jobBatchNumber=7, jobResultsSoFar=672
+2024-08-14 13:17:48,446 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-36] Finished processing of items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 13:17:52,007 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-52-thread-1] Collecting items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 13:17:52,046 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-52-thread-1] Count of items collected: 672; will be processed in 7 batches based on batchSize of 100
+2024-08-14 13:17:52,051 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-52-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 13:17:52,051 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-52-thread-1] Starting processing of items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 13:17:52,051 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-52-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-08-14 13:18:04,009 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-38] Job complete, jobBatchNumber=7, jobResultsSoFar=672
+2024-08-14 13:18:04,010 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-38] Finished processing of items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 13:18:39,024 ERROR com.marklogic.hub.central.exceptions.CustomExceptionHandler [http-nio-8080-exec-4] Local message: failed to POST at /data-hub/5/data-services/mapping/getDocument.sjs: Interceptor execution failed;cause: JS-JAVASCRIPT: const action = instance.action.split(/\s*,\s*/); -- Error running JavaScript request: TypeError: Cannot read property 'split' of undefined. Server Message: Interceptor execution failed;cause: JS-JAVASCRIPT: const action = instance.action.split(/\s*,\s*/); -- Error running JavaScript request: TypeError: Cannot read property 'split' of undefined
+com.marklogic.client.FailedRequestException: Local message: failed to POST at /data-hub/5/data-services/mapping/getDocument.sjs: Interceptor execution failed;cause: JS-JAVASCRIPT: const action = instance.action.split(/\s*,\s*/); -- Error running JavaScript request: TypeError: Cannot read property 'split' of undefined. Server Message: Interceptor execution failed;cause: JS-JAVASCRIPT: const action = instance.action.split(/\s*,\s*/); -- Error running JavaScript request: TypeError: Cannot read property 'split' of undefined
+	at com.marklogic.client.impl.OkHttpServices$CallRequestImpl.checkStatus(OkHttpServices.java:5783)
+	at com.marklogic.client.impl.OkHttpServices$CallRequestImpl.executeRequest(OkHttpServices.java:5744)
+	at com.marklogic.client.impl.OkHttpServices$CallRequestImpl.withDocumentResponse(OkHttpServices.java:5658)
+	at com.marklogic.client.impl.BaseProxy$DBFunctionRequest.responseSingle(BaseProxy.java:906)
+	at com.marklogic.hub.dataservices.MappingService$1MappingServiceImpl.getDocument(MappingService.java:137)
+	at com.marklogic.hub.dataservices.MappingService$1MappingServiceImpl.getDocument(MappingService.java:127)
+	at com.marklogic.hub.central.controllers.steps.MappingStepController.getDocument(MappingStepController.java:89)
+	at com.marklogic.hub.central.controllers.steps.MappingStepController$$FastClassBySpringCGLIB$$af51605c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.marklogic.hub.central.controllers.steps.MappingStepController$$EnhancerBySpringCGLIB$$f3ae5394.getDocument(<generated>)
+	at jdk.internal.reflect.GeneratedMethodAccessor105.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2024-08-14 13:19:34,879 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-6] Uploading files to /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-18319269941449206774 in the server. If 'inputFilePath'  is specified in the ingestion step, this path overrides it.
+2024-08-14 13:19:34,883 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-6] Files successfully uploaded
+2024-08-14 13:19:35,101 INFO com.marklogic.hub.step.impl.FileCollector [pool-54-thread-1] Finding files in directory: /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-18319269941449206774
+2024-08-14 13:19:35,111 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-54-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 13:19:35,111 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-54-thread-1] Adding DatabaseClient on port 8010 for host "localhost" to the rotation
+2024-08-14 13:19:35,111 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-54-thread-1] threadCount=4
+2024-08-14 13:19:35,111 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-54-thread-1] batchSize=100
+2024-08-14 13:19:35,115 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [Thread-39] flushing 24 queued docs
+2024-08-14 13:19:35,650 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-54-thread-1] Collecting items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 13:19:35,667 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-54-thread-1] Count of items collected: 224; will be processed in 3 batches based on batchSize of 100
+2024-08-14 13:19:35,671 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-54-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 13:19:35,671 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-54-thread-1] Starting processing of items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 13:19:35,671 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-54-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-08-14 13:19:36,066 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-40] Job complete, jobBatchNumber=3, jobResultsSoFar=224
+2024-08-14 13:19:36,066 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-40] Finished processing of items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 13:20:59,416 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-3] Uploading files to /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-12434927574259528127 in the server. If 'inputFilePath'  is specified in the ingestion step, this path overrides it.
+2024-08-14 13:20:59,424 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-3] Files successfully uploaded
+2024-08-14 13:20:59,523 INFO com.marklogic.hub.step.impl.FileCollector [pool-57-thread-1] Finding files in directory: /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-12434927574259528127
+2024-08-14 13:20:59,546 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-57-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 13:20:59,546 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-57-thread-1] Adding DatabaseClient on port 8010 for host "localhost" to the rotation
+2024-08-14 13:20:59,546 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-57-thread-1] threadCount=4
+2024-08-14 13:20:59,547 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-57-thread-1] batchSize=100
+2024-08-14 13:20:59,550 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [Thread-41] flushing 24 queued docs
+2024-08-14 13:21:00,420 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-57-thread-1] Collecting items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 13:21:00,445 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-57-thread-1] Count of items collected: 448; will be processed in 5 batches based on batchSize of 100
+2024-08-14 13:21:00,449 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-57-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 13:21:00,450 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-57-thread-1] Starting processing of items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 13:21:00,450 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-57-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-08-14 13:21:01,424 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-42] Job complete, jobBatchNumber=5, jobResultsSoFar=448
+2024-08-14 13:21:01,424 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-42] Finished processing of items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 13:21:18,785 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-1] Uploading files to /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-4844811445355746609 in the server. If 'inputFilePath'  is specified in the ingestion step, this path overrides it.
+2024-08-14 13:21:18,798 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-1] Files successfully uploaded
+2024-08-14 13:21:18,847 INFO com.marklogic.hub.step.impl.FileCollector [pool-60-thread-1] Finding files in directory: /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-4844811445355746609
+2024-08-14 13:21:18,854 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-60-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 13:21:18,855 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-60-thread-1] Adding DatabaseClient on port 8010 for host "localhost" to the rotation
+2024-08-14 13:21:18,856 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-60-thread-1] threadCount=4
+2024-08-14 13:21:18,856 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-60-thread-1] batchSize=100
+2024-08-14 13:21:18,871 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [Thread-43] flushing 24 queued docs
+2024-08-14 13:21:19,579 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-60-thread-1] Collecting items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 13:21:19,603 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-60-thread-1] Count of items collected: 224; will be processed in 3 batches based on batchSize of 100
+2024-08-14 13:21:19,608 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-60-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 13:21:19,609 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-60-thread-1] Starting processing of items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 13:21:19,609 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-60-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-08-14 13:21:20,043 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-44] Job complete, jobBatchNumber=3, jobResultsSoFar=224
+2024-08-14 13:21:20,044 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-44] Finished processing of items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 13:21:57,056 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-7] Uploading files to /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-12136947981359218039 in the server. If 'inputFilePath'  is specified in the ingestion step, this path overrides it.
+2024-08-14 13:21:57,060 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-7] Files successfully uploaded
+2024-08-14 13:21:57,109 INFO com.marklogic.hub.step.impl.FileCollector [pool-63-thread-1] Finding files in directory: /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-12136947981359218039
+2024-08-14 13:21:57,118 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-63-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 13:21:57,118 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-63-thread-1] Adding DatabaseClient on port 8010 for host "localhost" to the rotation
+2024-08-14 13:21:57,118 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-63-thread-1] threadCount=4
+2024-08-14 13:21:57,118 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-63-thread-1] batchSize=100
+2024-08-14 13:21:57,120 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [Thread-45] flushing 50 queued docs
+2024-08-14 13:21:57,536 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-63-thread-1] Collecting items for step '2' in flow 'weaponsFlow'
+2024-08-14 13:21:57,558 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-63-thread-1] Count of items collected: 50; will be processed in a single batch based on batchSize of 100
+2024-08-14 13:21:57,564 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-63-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 13:21:57,564 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-63-thread-1] Starting processing of items for step '2' in flow 'weaponsFlow'
+2024-08-14 13:21:57,565 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-63-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-08-14 13:21:57,806 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-46] Job complete, jobBatchNumber=1, jobResultsSoFar=50
+2024-08-14 13:21:57,807 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-46] Finished processing of items for step '2' in flow 'weaponsFlow'
+2024-08-14 13:26:36,056 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-66-thread-1] Collecting items for step '2' in flow 'weaponsFlow'
+2024-08-14 13:26:36,124 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-66-thread-1] Count of items collected: 50; will be processed in a single batch based on batchSize of 100
+2024-08-14 13:26:36,903 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-66-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 13:26:36,904 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-66-thread-1] Starting processing of items for step '2' in flow 'weaponsFlow'
+2024-08-14 13:26:36,904 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-66-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-08-14 13:26:37,541 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-47] Job complete, jobBatchNumber=1, jobResultsSoFar=50
+2024-08-14 13:26:37,542 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-47] Finished processing of items for step '2' in flow 'weaponsFlow'
+2024-08-14 13:28:38,066 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-3] Uploading files to /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-5904389864076483957 in the server. If 'inputFilePath'  is specified in the ingestion step, this path overrides it.
+2024-08-14 13:28:38,073 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-3] Files successfully uploaded
+2024-08-14 13:28:38,168 INFO com.marklogic.hub.step.impl.FileCollector [pool-68-thread-1] Finding files in directory: /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-5904389864076483957
+2024-08-14 13:28:38,176 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-68-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 13:28:38,176 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-68-thread-1] Adding DatabaseClient on port 8010 for host "localhost" to the rotation
+2024-08-14 13:28:38,177 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-68-thread-1] threadCount=4
+2024-08-14 13:28:38,177 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-68-thread-1] batchSize=100
+2024-08-14 13:28:38,180 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [Thread-48] flushing 24 queued docs
+2024-08-14 13:28:50,728 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-9] Uploading files to /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-16698937491285942280 in the server. If 'inputFilePath'  is specified in the ingestion step, this path overrides it.
+2024-08-14 13:28:50,744 INFO com.marklogic.hub.central.controllers.FlowController [http-nio-8080-exec-9] Files successfully uploaded
+2024-08-14 13:28:50,815 INFO com.marklogic.hub.step.impl.FileCollector [pool-70-thread-1] Finding files in directory: /var/folders/v1/38lpnmpd28b_ff0gzm4xd4tdc4d2ft/T/ingestion-16698937491285942280
+2024-08-14 13:28:50,822 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-70-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 13:28:50,823 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-70-thread-1] Adding DatabaseClient on port 8010 for host "localhost" to the rotation
+2024-08-14 13:28:50,824 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-70-thread-1] threadCount=4
+2024-08-14 13:28:50,824 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [pool-70-thread-1] batchSize=100
+2024-08-14 13:28:50,826 INFO com.marklogic.client.datamovement.impl.WriteBatcherImpl [Thread-49] flushing 50 queued docs
+2024-08-14 13:29:18,760 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-72-thread-1] Collecting items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 13:29:18,784 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-72-thread-1] Count of items collected: 224; will be processed in 3 batches based on batchSize of 100
+2024-08-14 13:29:18,789 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-72-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 13:29:18,789 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-72-thread-1] Starting processing of items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 13:29:18,789 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-72-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-08-14 13:29:19,468 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-50] Job complete, jobBatchNumber=3, jobResultsSoFar=224
+2024-08-14 13:29:19,469 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-50] Finished processing of items for step '2' in flow 'weaponPartsFlow'
+2024-08-14 13:29:48,682 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-74-thread-1] Collecting items for step '2' in flow 'weaponsFlow'
+2024-08-14 13:29:48,772 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-74-thread-1] Count of items collected: 50; will be processed in a single batch based on batchSize of 100
+2024-08-14 13:29:48,778 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-74-thread-1] (withForestConfig) Using forests on [localhost] hosts for "navy-STAGING"
+2024-08-14 13:29:48,778 INFO com.marklogic.hub.step.impl.QueryStepRunner [pool-74-thread-1] Starting processing of items for step '2' in flow 'weaponsFlow'
+2024-08-14 13:29:48,778 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl [pool-74-thread-1] Starting job forest length=3, docBatchSize=100, docToUriBatchRatio=1, threadCount=4, onUrisReady listeners=2, failure listeners=4
+2024-08-14 13:29:49,058 INFO com.marklogic.client.datamovement.impl.QueryBatcherImpl$QueryThreadPoolExecutor [Thread-51] Job complete, jobBatchNumber=1, jobResultsSoFar=50
+2024-08-14 13:29:49,058 INFO com.marklogic.hub.step.impl.QueryStepRunner [Thread-51] Finished processing of items for step '2' in flow 'weaponsFlow'
+2024-08-14 14:08:50,013 INFO com.marklogic.hub.impl.HubConfigImpl [http-nio-8080-exec-2] Reading the datahub config for hubcentral from the datahubConfig.json file successful
+2024-08-14 14:08:50,015 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-2] App host: localhost
+2024-08-14 14:08:50,015 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-2] REST admin username: DrSmith
+2024-08-14 14:08:50,015 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-2] App Services username: DrSmith
+2024-08-14 14:08:50,015 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-2] Module permissions: %%mlModulePermissions%%
+2024-08-14 14:08:50,016 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-2] Admin interface host: localhost
+2024-08-14 14:08:50,016 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-2] Admin interface username: DrSmith
+2024-08-14 14:08:50,016 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-2] Manage host: localhost
+2024-08-14 14:08:50,016 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-2] Manage username: DrSmith
+2024-08-14 14:08:50,016 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-2] Manage user with security role: DrSmith
+2024-08-14 14:08:50,027 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-2] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]
+2024-08-14 14:08:50,045 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-2] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: DrSmith, security username: DrSmith]

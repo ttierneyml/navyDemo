@@ -36,8 +36,8 @@
   "stepDefinitionType": "mapping",
   "stepId": "mapWeaponParts-mapping",
   "acceptsBatch": true,
-  "lastUpdated": "2024-08-09T17:13:02.532755-04:00",
-  "uriExpression": "concat(\"/\", encode-for-uri(/Name),\"/\", /id)",
+  "lastUpdated": "2024-08-14T13:10:21.45762-04:00",
+  "uriExpression": "concat(\"/\", encode-for-uri(/name),\"/\", /id)",
   "properties": {
     "id": {
       "sourcedFrom": "/id"
@@ -53,6 +53,15 @@
     },
     "URI": {
       "sourcedFrom": ""
+    },
+    "name": {
+      "sourcedFrom": "/name"
+    },
+    "serialNumber": {
+      "sourcedFrom": "/serialNumber"
+    },
+    "model": {
+      "sourcedFrom": "/model"
     }
   },
   "namespaces": { }

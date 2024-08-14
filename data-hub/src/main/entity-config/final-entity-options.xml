@@ -48,27 +48,27 @@
       <search:element ns="" name="id"/>
     </search:value>
   </search:constraint>
-  <search:constraint name="weapon.Name">
+  <search:constraint name="weapon.name">
     <search:range type="xs:string" facet="true" collation="http://marklogic.com/collation/codepoint">
-      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weapon/Name</search:path-index>
+      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weapon/name</search:path-index>
       <search:facet-option>limit=25</search:facet-option>
     </search:range>
   </search:constraint>
-  <search:constraint name="weapon.Action">
+  <search:constraint name="weapon.action">
     <search:range type="xs:string" facet="true" collation="http://marklogic.com/collation/">
-      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weapon/Action</search:path-index>
+      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weapon/action</search:path-index>
       <search:facet-option>limit=25</search:facet-option>
     </search:range>
   </search:constraint>
-  <search:constraint name="weapon.Type">
+  <search:constraint name="weapon.type">
     <search:range type="xs:string" facet="true" collation="http://marklogic.com/collation/codepoint">
-      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weapon/Type</search:path-index>
+      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weapon/type</search:path-index>
       <search:facet-option>limit=25</search:facet-option>
     </search:range>
   </search:constraint>
-  <search:constraint name="weapon.Caliber">
+  <search:constraint name="weapon.caliber">
     <search:range type="xs:string" facet="true" collation="http://marklogic.com/collation/codepoint">
-      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weapon/Caliber</search:path-index>
+      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weapon/caliber</search:path-index>
       <search:facet-option>limit=25</search:facet-option>
     </search:range>
   </search:constraint>
@@ -89,38 +89,38 @@
   </search:value>
 </search:constraint> 
 -->
-  <search:constraint name="weaponPart.Name">
+  <search:constraint name="weaponPart.name">
     <search:range type="xs:string" facet="true" collation="http://marklogic.com/collation/codepoint">
-      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weaponPart/Name</search:path-index>
+      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weaponPart/name</search:path-index>
       <search:facet-option>limit=25</search:facet-option>
     </search:range>
   </search:constraint>
-  <search:constraint name="weaponPart.Model">
+  <search:constraint name="weaponPart.model">
     <search:range type="xs:string" facet="true" collation="http://marklogic.com/collation/codepoint">
-      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weaponPart/Model</search:path-index>
+      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weaponPart/model</search:path-index>
       <search:facet-option>limit=25</search:facet-option>
     </search:range>
   </search:constraint>
   <search:tuples name="weapon">
     <search:range type="xs:string" facet="true" collation="http://marklogic.com/collation/codepoint">
-      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weapon/Name</search:path-index>
+      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weapon/name</search:path-index>
     </search:range>
     <search:range type="xs:string" facet="true" collation="http://marklogic.com/collation/">
-      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weapon/Action</search:path-index>
+      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weapon/action</search:path-index>
     </search:range>
     <search:range type="xs:string" facet="true" collation="http://marklogic.com/collation/codepoint">
-      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weapon/Type</search:path-index>
+      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weapon/type</search:path-index>
     </search:range>
     <search:range type="xs:string" facet="true" collation="http://marklogic.com/collation/codepoint">
-      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weapon/Caliber</search:path-index>
+      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weapon/caliber</search:path-index>
     </search:range>
   </search:tuples>
   <search:tuples name="weaponPart">
     <search:range type="xs:string" facet="true" collation="http://marklogic.com/collation/codepoint">
-      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weaponPart/Name</search:path-index>
+      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weaponPart/name</search:path-index>
     </search:range>
     <search:range type="xs:string" facet="true" collation="http://marklogic.com/collation/codepoint">
-      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weaponPart/Model</search:path-index>
+      <search:path-index xmlns:es="http://marklogic.com/entity-services">/(es:envelope|envelope)/(es:instance|instance)/weaponPart/model</search:path-index>
     </search:range>
   </search:tuples>
   <!--Uncomment to return no results for a blank search, rather than the default of all results

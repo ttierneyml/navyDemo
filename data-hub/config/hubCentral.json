@@ -4,12 +4,14 @@
       "weaponPart": {
         "color": "#eeeff1",
         "icon": "FaShapes",
-        "graphX": 0,
-        "graphY": -51
+        "graphX": 50,
+        "graphY": -15
       },
       "weapon": {
         "color": "#eeeff1",
-        "icon": "FaShapes"
+        "icon": "FaShapes",
+        "graphX": -19,
+        "graphY": 48
       }
     },
     "concepts": { },

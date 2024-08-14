@@ -36,8 +36,8 @@
   "stepDefinitionType": "mapping",
   "stepId": "mapWeapons-mapping",
   "acceptsBatch": true,
-  "lastUpdated": "2024-08-09T17:13:43.431953-04:00",
-  "uriExpression": "concat(\"/\", encode-for-uri(/Name), \"/\", /id)",
+  "lastUpdated": "2024-08-14T13:09:59.009768-04:00",
+  "uriExpression": "concat(\"/\", encode-for-uri(/name), \"/\", /id)",
   "properties": {
     "id": {
       "sourcedFrom": "/id"
@@ -59,6 +59,27 @@
     },
     "Caliber": {
       "sourcedFrom": "/Caliber"
+    },
+    "Details": {
+      "sourcedFrom": "/Details"
+    },
+    "name": {
+      "sourcedFrom": "/name"
+    },
+    "serialNumber": {
+      "sourcedFrom": "/serialNumber"
+    },
+    "action": {
+      "sourcedFrom": "/action"
+    },
+    "type": {
+      "sourcedFrom": "/type"
+    },
+    "caliber": {
+      "sourcedFrom": "/caliber"
+    },
+    "details": {
+      "sourcedFrom": "/details"
     }
   },
   "namespaces": { }

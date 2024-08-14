@@ -1,29 +1,21 @@
-export const sparqlQuery = (id, name, entity) => { 
-  const configQuery = {
-    weapon: weaponQuery(id, name),
-    weaponPart: weaponPartQuery(id, name)
-  }
-  return configQuery[entity]
-}
-
-const weaponPartQuery = (id, name) => {
+export const sparqlQuery = (id, name, entity) => {
   return `
-    SELECT ("${name}" AS ?s) ("Assigned To" as ?p) (STRAFTER(STR(?object), "weapon/") AS ?o) 
+    SELECT ("http://example.org/${entity}-1.0.0/${entity}/${name}/${id}" AS ?s) (STRAFTER(STR(?predicate), "ontology#") as ?p) (?object AS ?o) 
     WHERE {
-      <http://example.org/weaponPart-1.0.0/weaponPart/${name}/${id}>
-      <http://example.org/ontology#assignedToWeapon> 
+      <http://example.org/${entity}-1.0.0/${entity}/${name}/${id}>
+      ?predicate
       ?object
     }
   `
 }
 
-const weaponQuery = (id, name) => {
+export const subjectQuery = (subject) => {
   return `
-    SELECT ("${name}" AS ?s) ("Has Part" as ?p) (STRAFTER(STR(?subject), "weaponPart/") AS ?o)
+    SELECT ("${subject}" AS ?s) (STRAFTER(STR(?predicate), "ontology#") as ?p) (?object AS ?o) 
     WHERE {
-      ?subject
-      <http://example.org/ontology#assignedToWeapon> 
-      <http://example.org/weapon-1.0.0/weapon/${name}/${id}>
+      <${subject}>
+      ?predicate
+      ?object
     }
   `
 }
@@ -31,21 +23,33 @@ const weaponQuery = (id, name) => {
 export const sparqlToItems = (sparqlResponse, name) => {
   if (!sparqlResponse) return;
   let items = {};
-  sparqlResponse.results.bindings.forEach(r => {
+  const subColor = "#FFA500"
+  const objColor = "#87CEEB"
+
+  sparqlResponse.forEach(r => {
     const { s, p, o } = r
     // create subject node
     if (s && s?.value) {
+      const sub = decodeURIComponent(s?.value)
+      var color = ""
+      if(sub.split('/').slice(-2).join('/') == name){color = subColor}
+      else{color = objColor}
       items[s.value] = {
-        label: [{ text: name }],
-        color: "#FFA500"
+        label: [{ text: sub.split('/').slice(-2).join('/') }],
+        color: color
       }
     }
     // create object node
     if (o && o?.value) {
-        items[o.value] = {
-          label: [{ text: decodeURIComponent(o?.value) }],
-          color: "#87CEEB"
-        }
+      const obj = decodeURIComponent(o?.value)
+      var color = ""
+      if(obj.split('/').slice(-2).join('/') == name){
+        color = subColor}
+      else{color = objColor}
+      items[o.value] = {
+        label: [{ text: obj.split('/').slice(-2).join('/') }],
+        color: color
+      }
     }
     // create predicate link
     if (s && s?.value && o && o?.value) {

@@ -14,19 +14,19 @@
           "sortable": false,
           "collation": "http://marklogic.com/collation/codepoint"
         },
-        "Name": {
+        "name": {
           "datatype": "string",
           "facetable": true,
           "sortable": true,
           "collation": "http://marklogic.com/collation/codepoint"
         },
-        "SerialNumber": {
+        "serialNumber": {
           "datatype": "string",
           "facetable": false,
           "sortable": false,
           "collation": "http://marklogic.com/collation/codepoint"
         },
-        "Model": {
+        "model": {
           "datatype": "string",
           "facetable": true,
           "sortable": true,

@@ -54,7 +54,7 @@ export default function Root() {
           <Row>
             <Col md={3}>
                 <Container>
-                  <StringFacet title="Model" name="Model" data={context.searchResponse?.facets?.Model} onSelect={handleFacetClick} />
+                  <StringFacet title="Model" name="model" data={context.searchResponse?.facets?.model} onSelect={handleFacetClick} />
                 </Container>
             </Col>
             <Col md={9}>

@@ -2,7 +2,7 @@ import { useContext, useEffect, useState, useCallback, useMemo } from "react"
 import { EntityRecord, MLContext } from "ml-fasttrack"
 import { JsonView, WindowCard, NetworkGraph, CategoricalChart } from "ml-fasttrack";
 
-import { sparqlQuery, sparqlToItems } from "../config/NetworkGraph.config";
+import { sparqlQuery, sparqlToItems, subjectQuery } from "../config/NetworkGraph.config";
 import { buildQueryForGraph } from "../components/queries.jsx";
 
 import { useSearchParams } from "react-router-dom";
@@ -20,11 +20,24 @@ export default function Root() {
     const [entityConfig, setEntityConfig] = useState(null)
     const [title, setTitle] = useState("")
     const [ID, setID] = useState("")
+    const [subject, setSubject] = useState("")
+    const [trips, setTrips] = useState([])
 
     const configMap = {
         weapon: weaponConfig,
         weaponPart: weaponPartConfig,
       }
+
+    const addNodes = (e) => {
+        const val = e.label[0].text
+        const sub = ""
+        trips.forEach((trip) => {
+            const obj = decodeURIComponent(trip.o.value)
+            if(obj.includes(val)){
+                setSubject(trip.o.value)
+            }
+        })
+    }
 
     useEffect(() => {
         const fetchFocusData = async () => {
@@ -32,7 +45,7 @@ export default function Root() {
             const doc = await context.getDocument(uri)
             const entityTitle = doc.envelope.instance.info.title
             const id = doc.envelope.instance[entityTitle].id
-            const name = doc.envelope.instance[entityTitle].Name
+            const name = doc.envelope.instance[entityTitle].name
 
             setEntity(entityTitle)
             setFocusData(doc)
@@ -43,10 +56,24 @@ export default function Root() {
             if (config) {
                 setEntityConfig(config)
             }
-            const trips = await context.getSparql(sparqlQuery(id, encodeURIComponent(name), entityTitle))
+            const response = await context.postSparql(sparqlQuery(id, encodeURIComponent(name), entityTitle))
+            setTrips(response.results.bindings)
         }
         fetchFocusData()
     }, [searchParams])
+
+    useEffect(() => {
+        const fetchTrips = async () => {
+            const a = trips
+            const response = await context.postSparql(subjectQuery(subject))
+            console.log(response)
+            response.results.bindings.forEach((trip) => {
+                a.push(trip)
+            })
+            setTrips(a)
+        }
+        fetchTrips()
+    }, [subject])
 
     if (!entity || !focusData || !entityConfig || !title) {
         return <div>Loading...</div>;
@@ -58,7 +85,7 @@ export default function Root() {
                 <Row>
                     <Col>
                         <Container className="text-center my-4">
-                            <h2>{title}</h2>
+                            <h2>{title}/{ID}</h2>
                         </Container>
                     </Col>
                 </Row>
@@ -94,10 +121,9 @@ export default function Root() {
                             </Tab>
                             <Tab eventKey="graphTab" title="Graph" mountOnEnter={true} style={{ height: '100vh', width: "100%" }}>
                                 <NetworkGraph
-                                    items={sparqlToItems(context.sparqlResponse, title.concat("/", ID))}
-                                    // onDoubleClickNode={(event) => openGraphWindow(event)}
+                                    items={sparqlToItems(trips, title.concat("/", ID))}
+                                    onDoubleClickNode={(event) => addNodes(event)}
                                     showLayout={true}
-                                    defaultLayoutValue="sequential"
                                     width={'100%'}
                                 />
                             </Tab>

@@ -13,19 +13,19 @@ export const weaponConfig = {
       items: [
         {
           label: 'Type',
-          path: 'envelope.instance.weapon.Type'
+          path: 'envelope.instance.weapon.type'
         },
         {
           label: 'Serial Number',
-          path: 'envelope.instance.weapon.SerialNumber'
+          path: 'envelope.instance.weapon.serialNumber'
         },
         {
           label: 'Caliber',
-          path: 'envelope.instance.weapon.Caliber'
+          path: 'envelope.instance.weapon.caliber'
         },
         {
           label: 'Action',
-          path: 'envelope.instance.weapon.Action'
+          path: 'envelope.instance.weapon.action'
         }
       ],
       avatarProps: {
@@ -56,11 +56,11 @@ export const weaponPartConfig = {
       items: [
         {
           label: 'Model',
-          path: 'envelope.instance.weaponPart.Model'
+          path: 'envelope.instance.weaponPart.model'
         },
         {
           label: 'Serial Number',
-          path: 'envelope.instance.weaponPart.SerialNumber'
+          path: 'envelope.instance.weaponPart.serialNumber'
         }
       ],
       avatarProps: {

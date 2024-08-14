@@ -9,42 +9,42 @@
   "range-path-index": [
     {
       "invalid-values": "reject",
-      "path-expression": "/(es:envelope|envelope)/(es:instance|instance)/weaponPart/Name",
+      "path-expression": "/(es:envelope|envelope)/(es:instance|instance)/weapon/name",
       "range-value-positions": false,
       "scalar-type": "string",
       "collation": "http://marklogic.com/collation/codepoint"
     },
     {
       "invalid-values": "reject",
-      "path-expression": "/(es:envelope|envelope)/(es:instance|instance)/weaponPart/Model",
-      "range-value-positions": false,
-      "scalar-type": "string",
-      "collation": "http://marklogic.com/collation/codepoint"
-    },
-    {
-      "invalid-values": "reject",
-      "path-expression": "/(es:envelope|envelope)/(es:instance|instance)/weapon/Name",
-      "range-value-positions": false,
-      "scalar-type": "string",
-      "collation": "http://marklogic.com/collation/codepoint"
-    },
-    {
-      "invalid-values": "reject",
-      "path-expression": "/(es:envelope|envelope)/(es:instance|instance)/weapon/Action",
+      "path-expression": "/(es:envelope|envelope)/(es:instance|instance)/weapon/action",
       "range-value-positions": false,
       "scalar-type": "string",
       "collation": "http://marklogic.com/collation/"
     },
     {
       "invalid-values": "reject",
-      "path-expression": "/(es:envelope|envelope)/(es:instance|instance)/weapon/Type",
+      "path-expression": "/(es:envelope|envelope)/(es:instance|instance)/weapon/type",
       "range-value-positions": false,
       "scalar-type": "string",
       "collation": "http://marklogic.com/collation/codepoint"
     },
     {
       "invalid-values": "reject",
-      "path-expression": "/(es:envelope|envelope)/(es:instance|instance)/weapon/Caliber",
+      "path-expression": "/(es:envelope|envelope)/(es:instance|instance)/weapon/caliber",
+      "range-value-positions": false,
+      "scalar-type": "string",
+      "collation": "http://marklogic.com/collation/codepoint"
+    },
+    {
+      "invalid-values": "reject",
+      "path-expression": "/(es:envelope|envelope)/(es:instance|instance)/weaponPart/name",
+      "range-value-positions": false,
+      "scalar-type": "string",
+      "collation": "http://marklogic.com/collation/codepoint"
+    },
+    {
+      "invalid-values": "reject",
+      "path-expression": "/(es:envelope|envelope)/(es:instance|instance)/weaponPart/model",
       "range-value-positions": false,
       "scalar-type": "string",
       "collation": "http://marklogic.com/collation/codepoint"

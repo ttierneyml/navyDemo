@@ -1,4 +1,4 @@
-Name	id	SerialNumber	Model	AssignedTo
+name	id	serialNumber	model	assignedTo
 Barrel	2000	CN2000	M17	1000
 Slide Assembly	2001	CN2001	M17	1000
 Recoil Spring Assembly	2002	CN2002	M17	1000

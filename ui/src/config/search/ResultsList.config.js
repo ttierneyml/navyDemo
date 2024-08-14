@@ -7,23 +7,23 @@ export const resultsConfig = {
     {
       entityType: 'weapon',
       title: {
-        path: 'extracted.envelope.instance.weapon.Name'
+        path: 'extracted.envelope.instance.weapon.name'
       },
       items: [
         { label: "id", path: 'extracted.envelope.instance.weapon.id' },
-        { label: "Serial Number", path: 'extracted.envelope.instance.weapon.SerialNumber' },
-        { label: "Type", path: 'extracted.envelope.instance.weapon.Type' }
+        { label: "Serial Number", path: 'extracted.envelope.instance.weapon.serialNumber' },
+        { label: "Type", path: 'extracted.envelope.instance.weapon.type' }
       ]
     },
     {
       entityType: 'weaponPart',
       title: {
-        path: 'extracted.envelope.instance.weaponPart.Name'
+        path: 'extracted.envelope.instance.weaponPart.name'
       },
       items: [
         { label: "id", path: 'extracted.envelope.instance.weaponPart.id' },
-        { label: "Serial Number", path: 'extracted.envelope.instance.weaponPart.SerialNumber' },
-        { label: "Model", path: 'extracted.envelope.instance.weaponPart.Model' }
+        { label: "Serial Number", path: 'extracted.envelope.instance.weaponPart.serialNumber' },
+        { label: "Model", path: 'extracted.envelope.instance.weaponPart.model' }
       ],
       avatarProps: {
         border: false,
